@@ -221,3 +221,4 @@ java.net.ConnectException: Connection refused: connect
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
 	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
 
+2024-04-03 09:12:13.897  WARN 15800 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'name' for method parameter type String is not present]
