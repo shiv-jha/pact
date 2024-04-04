@@ -30,8 +30,8 @@ import au.com.dius.pact.provider.junitsupport.loader.PactBrokerAuth;
 @Provider("CoursesCatalogue")
 @PactUrl(urls = { "file:src/main/java/pacts/BooksCatalogue-CoursesCatalogue.json" })
 //@PactFolder("pacts")//url
-//@PactBroker(url="https://shiv.pactflow.io/",
-//authentication= @PactBrokerAuth(token="DU4SAEwbk3UXXTr05cF1Kg"))
+//@PactBroker(url="https://blutack.pactflow.io/",
+//authentication= @PactBrokerAuth(token="oVjEZij8nkC6L7y05yjppw"))
 
 
 public class PactProviderTest {
@@ -78,19 +78,19 @@ public class PactProviderTest {
 	//   -  /getCourseName/Appium () -> {name -appium, id="", price ="}
 	//      /getCourseName/Appium - > { msg : course do not exist}
 	
-/*	@State(value= "Course Appium exist",action= StateChangeAction.SETUP)
-	public void appiumCourseExist()
-	
-	{
-		//appium
-	}
-	
-	@State(value= "Course Appium exist",action= StateChangeAction.TEARDOWN)
-	public void appiumCourseExistTearDown()
-	
-	{
-		//
-	}
+//	@State(value= "Course Appium exist",action= StateChangeAction.SETUP)
+//	public void appiumCourseExist()
+//	
+//	{
+//		//appium
+//	}
+//	
+//	@State(value= "Course Appium exist",action= StateChangeAction.TEARDOWN)
+//	public void appiumCourseExistTearDown()
+//	
+//	{
+//		//
+//	}
 	
 	@State(value= "Course Appium does not exist",action= StateChangeAction.SETUP)
 	public void appiumCourseDoNotExist(Map<String,Object>params)
@@ -137,5 +137,5 @@ public class PactProviderTest {
 	
 	}
 	
-	*/
+	
 }
