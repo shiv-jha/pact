@@ -96,7 +96,6 @@
         <artifactId>maven</artifactId>
         <version>4.1.11</version>
         <configuration>
-       
         </configuration>
       </plugin>
 		
